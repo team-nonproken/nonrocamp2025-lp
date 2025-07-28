@@ -1,0 +1,20 @@
+# macOS関連（.DS_Storeなど）macOSのFinderやシステムが生成する隠しファイル。リポジトリを汚さないために無視。
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows関連（desktop.iniなど）Windowsのエクスプローラーやシステムが生成する設定ファイル。共有リポジトリで問題を避ける。
+.desktop.ini
+.Thumbs.db
+.lnk
+
+# Googleドキュメント/Drive関連（.gdocなど）Google Driveのデスクトップ同期やダウンロード時に生成されるショートカットファイル（JSON形式のリンクファイル）。これらはローカル専用で、Gitにコミットする必要なし。
+.gdoc
+.gsheet
+.gslides
+.gdraw
+.gform
+.gmap
+.gtable
+.gsite
+
